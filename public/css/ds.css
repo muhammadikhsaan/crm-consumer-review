@@ -1,0 +1,142 @@
+.main-dashboard>thead>tr>th, .main-dashboard>tbody>tr>td, .table th, .table td, .table a{
+    vertical-align: middle!important;
+    text-align: center!important;
+    font-size: 14px;
+}
+
+span.select2-selection--multiple{
+    padding-top: 4px;
+}
+
+/* input {
+    position: relative;
+    width: 150px; height: 20px;
+    color: white;
+} */
+
+.bg-ih{
+    background-color:inherit;
+}
+
+.shadow-xl{
+    box-shadow: -9px 10px 18px rgba(0,0,0,0.1);
+    border-radius: 10px!important;
+}
+
+input[type=date]:before {
+    position: absolute;
+    left: 10px;
+    content: attr(data-date);
+    display: inline-block;
+    color: black;
+}
+
+input::-webkit-datetime-edit, input::-webkit-inner-spin-button, input::-webkit-clear-button {
+    display: none;
+}
+
+input::-webkit-calendar-picker-indicator {
+    position: absolute;
+    right: 10px;
+    color: black;
+    opacity: 1;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.main-dashboard td, .main-dashboard th{
+    border: 1px solid black !important;
+}
+
+.pagination-custom>nav>.hidden>div>span .px-2, .pagination-custom>nav>.hidden>div>span .px-4{
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+}
+
+a.text-black{
+    color: rgb(0, 97, 189) !important;
+}
+
+#search_date{
+    width: 170px;
+    height: auto;
+}
+
+#progress-value:after {
+    width: 10%;
+    text-align: center;
+    display: block;
+    content: attr(progress-value);
+    color: black;
+}
+
+a.progress-percent{
+    padding: 10px 20px;
+}
+
+.bg-opacity-05 {
+    background-color: rgba(0,0,0,.05);
+}
+
+.bg-opacity-045 {
+    color: white !important;
+    background-color:rgba(0, 0, 0, 0.575);
+}
+
+.bg-opacity-04 {
+    background-color: rgba(0,0,0,.04);
+}
+
+.bg-opacity-035 {
+    background-color: rgba(0,0,0,.035);
+}
+
+.bg-aqw{
+    background-color: antiquewhite;
+}
+
+.bg-lighblue{
+    background-color: lightblue;
+}
+
+.bg-coral{
+    background-color: coral;
+}
+
+.bg-lightpink{
+    background-color: lightpink;
+}
+
+.bg-lightsky{
+    background-color: lightskyblue;
+}
+
+.bg-lightcoral{
+    background-color: rgb(240, 128, 128);
+}
+
+.bg-lightsteel{
+    background-color: lightsteelblue;
+}
+
+.bg-paleturquoise{
+    background-color: paleturquoise;
+}
+
+.btn-primary{
+    background-color: rgb(64,160,185) !important;
+}
+
+.pagination>li{
+    padding: 2px 5px;
+}
